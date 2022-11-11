@@ -2,11 +2,11 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
-    - name: TahuTech
-      url-base: https://github.com/TahuTech
+    - name: tahutech
+      url-base: https://github.com/tahutech
   projects:
     - name: zmk
-      remote: TahuTech
+      remote: tahutech
       revision: rable
       import: app/west.yml
   self:
